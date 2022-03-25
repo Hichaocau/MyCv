@@ -1,0 +1,118 @@
+/* Pc */
+@media (min-width: 1024px){
+    .hide-on-pc{
+        display: none;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .header__user{
+        border: none;
+    }
+    .options__list {
+        flex-direction: row;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .options__list-item{
+        margin: 0 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .header__user{
+        display: block;
+        text-align: center;
+    }
+    .header__user-img{
+        margin: 0 auto;
+    }
+    .header__contact{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .header__contact-item{
+        margin: 0 10px;
+    }
+    .header__info{
+        display: block;
+    }
+    .header__info-item{
+        padding: 6px 0;
+    }
+    .options__list {
+        justify-content: center;
+    }   
+    .info__slider-text{
+        padding: 0;
+    }
+    .info__slider img{
+        height: 200px;
+        width: 235px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+
+    }
+    .main{
+        padding: 0 10px;
+    }
+    .options__list-item{
+        margin: 0 5px;
+    }
+    .options__list-item--icon span{
+        font-size: 1rem;
+        line-height: 1.2;
+    }
+    lord-icon{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .options__list-item{
+        height: 60px;
+    }
+    .options{
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .slick-arrow{
+        top: 28%;
+    }
+    .slick-next{
+        right: -20px;
+    }
+    .slick-prev{
+        left: -20px;
+    }
+    .info__slider-list{
+        padding: 0;
+    }
+    .slick-dots{
+        bottom: -15px;
+    }
+    .info__action-content{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .info__action-content img{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .info__action-content--text p{
+        font-size: 1.5rem;
+    }
+}
