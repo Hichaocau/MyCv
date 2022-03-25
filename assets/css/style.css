@@ -33,6 +33,10 @@
     cursor: pointer;
 }
 
+.header__user-info--name p{
+    font-size: 1.8rem;
+}
+
 .header__contact{
     margin-top: 40px;
 }
@@ -259,6 +263,7 @@
     font-weight: 900;
     top: 30%;
     opacity: 0;
+    visibility: hidden;
     right: -15px;
     padding: 12px 5px;
     text-align: center;
@@ -286,6 +291,44 @@
 .header__contact-item:nth-child(1):hover .header__facebook {
     opacity: 1;
     top: -95%;
+    visibility: inherit;
 }
 
+.info__slider-list{
+    position: relative;
+}
+
+.info__slider-list--hover a{
+    font-size: 1.4rem;
+}
+
+.info__slider-list--hover{
+    position: absolute;
+    right: 285px;
+    top: 28%;
+    background-color: #5fd2f1;
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    display: none;
+    opacity: 0;
+    animation: Scale ease 0.4s;
+    transform-origin: left bottom;
+    transition: all 0.3s linear;
+}
+
+.info__slider-list--hover::after{
+    position: absolute;
+    content: "";
+    right: 65px;
+    top: 20px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent transparent transparent #5fd2f1;
+}
+
+.info__slider-list:hover .info__slider-list--hover{
+    opacity: 1;
+    display: block;
+}
 

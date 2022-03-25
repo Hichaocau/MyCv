@@ -115,4 +115,7 @@
     .info__action-content--text p{
         font-size: 1.5rem;
     }
+    .info__slider-list:hover .info__slider-list--hover{
+        display: none;
+    }
 }
