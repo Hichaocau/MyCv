@@ -1,1 +1,1 @@
-https://github.com/Hichaocau/MyCv.git
+https://hichaocau.github.io/MyCv/
